@@ -1,0 +1,78 @@
+input{  
+    border: 1px solid #d0ccc9;  
+    background: #fff;  
+    color: #5f95ef;   
+    font-weight: 700;  
+    padding-bottom: 2px;  
+}  
+input.text{  
+    font-weight: normal;  
+    color: #565656;  
+    border: 1px solid #9c9c9c; 
+    padding: 2px;  
+    margin-bottom: 5px;  
+    text-align: left;  
+}  
+input.text.active{  
+    background: #ddeff6;  
+    border: 1px solid #0099d4;  
+}
+tr.rowSeparator > th
+{
+	padding-bottom: 1em;
+	background-color: gray;
+}
+.error {
+	color: #ff0000;
+}
+
+.errorblock{
+	color: #000;
+	background-color: #ffEEEE;
+	border: 3px solid #ff0000;
+	padding:8px;
+	margin:16px;
+}
+
+/*
+Plugin Name: WP-Digg Style Paginator
+Plugin URI: http://www.mis-algoritmos.com/2007/09/09/wp-digg-style-pagination-plugin-v-10/
+Author: Victor De la Rocha
+Author URI: http://www.mis-algoritmos.com
+*/
+/*Pagination*/
+div.pagination {
+	text-align: center;
+	padding: 7px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000000;
+	text-decoration: none; /* no underline */
+	color: #000000;
+}
+
+div.pagination a:hover,div.pagination a:active {
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #fff;
+}
+
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #000000;
+	font-weight: bold;
+	background-color: #000000;
+	color: #FFF;
+}
+
+div.pagination span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #DDD;
+}

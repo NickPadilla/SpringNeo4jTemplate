@@ -1,0 +1,6 @@
+LazyLoading is default but primitive, you end up having to get the value from the grid manuall so it gets
+populated.  This is best for performance reasons, however how do you deal with collections at the controller
+level?  Backend operations will benefit from this functionality, one line more work. 
+
+Follow this Hibernate-Validator issue and upgrade once 4.3 is released, it will have the class level validation 
+annotation bug fixed:  https://hibernate.onjira.com/browse/HV-524 

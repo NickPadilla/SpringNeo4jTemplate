@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src/main/webapp/resources/javascript/jquery/jquery-1.7.1-core-min.js|target/springneo4jtemplate-1.0.0-BUILD-SNAPSHOT/resources/javascript/jquery/jquery-1.7.1-core-min.js" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
